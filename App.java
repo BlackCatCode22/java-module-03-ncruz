@@ -1,16 +1,15 @@
-//9/16/2025
-//ncruz
+
 
 public class App {
     public static void main(String[] args) {
-        //create chef object
-        Chef normalChef = new Chef();
-        normalChef.makeChicken();
+        System.out.println(Cat.getCatCount());
 
-        Chef ItalianChef = new Chef();
-        ItalianChef.makeSpecialDish();
+        Cat myCat = new Cat();
+        myCat.meow();
+        myCat.name = "Stella";
+        myCat.age = 8;
+        System.out.println(Cat.MAX_LIVES);
+        System.out.println(myCat.getCatCount());
 
-        Chef ChineseChef = new Chef();
-        ChineseChef.makeSpecialDish();
     }
 }
